@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ASP.NetCore-Swagger</name>
+    </assembly>
+    <members>
+        <member name="M:ASP.NetCore_Swagger.Controllers.ValuesController.Get">
+            <summary>
+            Get action method without any argument
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ASP.NetCore_Swagger.Controllers.ValuesController.Get(System.Int32)">
+            <summary>
+            Get action method that accepts an integer as an argument
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ASP.NetCore_Swagger.Controllers.ValuesController.Post(System.String)">
+            <summary>
+            Post action method to add data
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:ASP.NetCore_Swagger.Controllers.ValuesController.Put(System.Int32,System.String)">
+            <summary>
+            Put action method to modify data
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:ASP.NetCore_Swagger.Controllers.ValuesController.Delete(System.Int32)">
+            <summary>
+            Delete action method
+            </summary>
+            <param name="id"></param>
+        </member>
+    </members>
+</doc>
